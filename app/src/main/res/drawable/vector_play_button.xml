@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportHeight="300"
+    android:viewportWidth="300">
+    <group
+        android:name="play_btn">
+        <path
+            android:name="triangle"
+            android:fillColor="#FFFFFF"
+            android:pathData="M 126.5,110 L 126.5,190 192.7,150 z" />
+        <path
+            android:name="circle"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="20"
+            android:pathData="M 225,150 a 75,75 0 1,0 -150,0  a 75,75 0 1,0 150,0" />
+    </group>
+</vector>

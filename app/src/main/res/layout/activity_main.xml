@@ -8,9 +8,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorPrimaryDark" >
 
-    <TextView
+    <ImageView
+        android:id="@+id/play_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textColor="@android:color/white" />
+        android:layout_gravity="center"
+        android:src="@drawable/vector_play_button"/>
 </FrameLayout>
