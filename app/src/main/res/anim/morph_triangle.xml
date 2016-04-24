@@ -6,7 +6,7 @@
         android:propertyName="pathData"
         android:valueType="pathType"
         android:valueFrom="M 126.5,110 L 126.5,190 192.7,150 192.7,150 z"
-        android:valueTo="M 126.5,140 L 126.5,160 192.7,160 192.7,140 z"
+        android:valueTo="M 126.5,130 L 126.5,150 192.7,150 192.7,130 z"
         android:duration="250"
         android:interpolator="@android:anim/accelerate_interpolator" />
 
@@ -21,8 +21,8 @@
     <objectAnimator
         android:propertyName="pathData"
         android:valueType="pathType"
-        android:valueFrom="M 126.5,140 L 126.5,160 192.7,160 192.7,140 z"
-        android:valueTo="M 192.7,140 L 192.7,160 192.7,160 192.7,140 z"
+        android:valueFrom="M 126.5,130 L 126.5,150 192.7,150 192.7,130 z"
+        android:valueTo="M 192.7,130 L 192.7,150 192.7,150 192.7,130 z"
         android:duration="200"
         android:interpolator="@android:interpolator/linear" />
 
