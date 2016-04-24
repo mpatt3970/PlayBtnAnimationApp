@@ -9,9 +9,8 @@
         <path
             android:name="triangle"
             android:fillColor="#FFFFFF"
-            android:pathData="M 126.5,110 L 126.5,190 192.7,150 z" />
+            android:pathData="M 126.5,110 L 126.5,190 192.7,150 192.7,150 z" />
     </group>
-
 
     <group
         android:name="circleGroup"

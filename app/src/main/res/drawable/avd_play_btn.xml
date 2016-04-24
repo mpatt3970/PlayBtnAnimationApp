@@ -10,4 +10,8 @@
         android:name="circle"
         android:animation="@anim/trim_circle" />
 
+    <target
+        android:name="triangle"
+        android:animation="@anim/morph_triangle" />
+
 </animated-vector>
