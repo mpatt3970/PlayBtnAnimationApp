@@ -3,6 +3,10 @@
     android:drawable="@drawable/vector_play_button">
 
     <target
+        android:name="circleGroup"
+        android:animation="@anim/trim_circle" />
+
+    <target
         android:name="circle"
         android:animation="@anim/trim_circle" />
 

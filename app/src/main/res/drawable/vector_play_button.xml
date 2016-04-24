@@ -10,10 +10,18 @@
             android:name="triangle"
             android:fillColor="#FFFFFF"
             android:pathData="M 126.5,110 L 126.5,190 192.7,150 z" />
+    </group>
+
+
+    <group
+        android:name="circleGroup"
+        android:pivotX="150"
+        android:pivotY="150"
+        android:rotation="0">
         <path
             android:name="circle"
             android:strokeColor="#FFFFFF"
             android:strokeWidth="20"
-            android:pathData="M 225,150 a 75,75 0 1,0 -150,0  a 75,75 0 1,0 150,0" />
+            android:pathData="M 225,150 a 75,75 0 1,0 -150,0 a 75,75 0 1,0 150,0" />
     </group>
 </vector>
