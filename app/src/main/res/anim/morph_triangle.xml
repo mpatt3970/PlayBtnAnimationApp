@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially" >
     <objectAnimator
         android:propertyName="pathData"
         android:valueType="pathType"
@@ -7,4 +8,13 @@
         android:valueTo="M 126.5,140 L 126.5,160 192.7,160 192.7,140 z"
         android:duration="250"
         android:interpolator="@android:anim/accelerate_interpolator" />
+
+    <objectAnimator
+        android:propertyName="translateX"
+        android:valueType="floatType"
+        android:valueFrom="0"
+        android:valueTo="32.3"
+        android:duration="150"
+        android:interpolator="@android:anim/decelerate_interpolator"/>
+
 </set>

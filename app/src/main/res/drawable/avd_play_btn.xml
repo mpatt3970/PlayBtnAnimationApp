@@ -14,4 +14,8 @@
         android:name="triangle"
         android:animation="@anim/morph_triangle" />
 
+    <target
+        android:name="play_btn"
+        android:animation="@anim/morph_triangle" />
+
 </animated-vector>
